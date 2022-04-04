@@ -1,0 +1,12 @@
+
+.leaflet-container{
+  height: calc(100vh - 80px);
+}
+
+.leaflet-popup{
+  width: 540px;
+}
+
+.utterances{
+  width:500px;
+}
