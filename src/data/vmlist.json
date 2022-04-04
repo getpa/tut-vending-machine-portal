@@ -1,0 +1,18 @@
+[
+  {"name": "バス停前", "color":"yellow", "position" :[34.7008614,137.4126968]},
+  {"name": "国際交流会館前", "color":"red", "position" :[34.6998734,137.4123025]},
+  {"name": "事務局棟外", "color":"red", "position" :[34.7009429,137.410881]}, 
+  {"name": "A棟ホール", "color":"yellow", "position" :[34.7016706,137.4108086]},
+  {"name": "A2棟前", "color":"yellow", "position" :[34.7019198,137.4105001]},
+  {"name": "B棟前", "color":"yellow", "position" :[34.7013729,137.4097196]},
+  {"name": "C棟前", "color":"blue", "position" :[34.7013685,137.4094755]},
+  {"name": "B2棟外", "color":"yellow", "position" :[34.7019242,137.4095721]},
+  {"name": "福利施設", "color":"violet", "position" :[34.7009518,137.408821]}, 
+  {"name": "F棟前", "color":"blue", "position" :[34.7010995,137.4078581]}, 
+  {"name": "総研（F2）棟 1Fホール", "color":"blue", "position" :[34.7016684,137.4079198]}, 
+  {"name": "E棟群外", "color":"blue", "position" :[34.7023895,137.4083731]}, 
+  {"name": "VBL前", "color":"blue", "position" :[34.7031569,137.4101273]}, 
+  {"name": "宿舎 共用棟", "color":"black", "position" :[34.7030334,137.4059484]}, 
+  {"name": "宿舎 G棟外", "color":"red", "position" :[34.7027423,137.4056373]}, 
+  {"name": "宿舎 C棟前", "color":"red", "position" :[34.7027996,137.4044973]}
+]
