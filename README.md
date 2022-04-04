@@ -1,70 +1,22 @@
-# Getting Started with Create React App
+# tut-vending-machine-portal
+とある大学の自動販売機に関する情報をシェアするためのポータル．
+需要があるかどうかは知りません．
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Thanks
+- [React](https://ja.reactjs.org)
+- [React Leaflet](https://react-leaflet.js.org)
+- [pointhi/leaflet-color-markers](https://github.com/pointhi/leaflet-color-markers)
+- [utterances](https://utteranc.es)
+- GitHub Pages
 
-## Available Scripts
+# 技術的な解説（概略）
+今後の機能拡充（するかどうかわからないけど）のためにReactを採用．
+[jsonファイル](src/data/vmlist.json)に自販機の情報を書いてある．
+コーディングしたのは[App.js](src/App.js)だけ．
 
-In the project directory, you can run:
+[OSM](https://www.openstreetmap.org/)を使ってGISみたいなことをするためにLeafletを利用．
+ReactでLeafletを使うために[React Leaflet](https://react-leaflet.js.org)を採用．
+ただし，Safariでポップアップが出ないバグがある（#3）．
 
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+GitHub Pagesでホストしているため，コメントのハンドリングには[utterances](https://utteranc.es)を使用．
+このリポジトリのissuesで管理されています．
