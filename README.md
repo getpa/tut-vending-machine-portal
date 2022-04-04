@@ -1,4 +1,6 @@
 # tut-vending-machine-portal
+https://getpa.github.io/tut-vending-machine-portal/
+
 とある大学の自動販売機に関する情報をシェアするためのポータル．
 需要があるかどうかは知りません．
 
