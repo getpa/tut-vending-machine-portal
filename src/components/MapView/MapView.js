@@ -1,6 +1,5 @@
 import './MapView.css';
 
-import VmList from '../../data/vmlist.json';
 import PayName from '../../data/payname.json';
 
 import { MapContainer, TileLayer, Marker, Popup } from 'react-leaflet'; 
@@ -8,6 +7,7 @@ import 'leaflet/dist/leaflet.css';
 import Leaflet from 'leaflet';
 
 import { Utterances } from 'utterances-react-component'
+
 
 Leaflet.Icon.Default.imagePath = '//cdnjs.cloudflare.com/ajax/libs/leaflet/1.3.1/images/';
 
@@ -36,15 +36,14 @@ const icons = [
   return result;
 }, {});
 
-export function MapView() {
+export function MapView(props) {
   return (
       <MapContainer center={[34.70146,137.40821]} zoom={17} tap={false}>
         <TileLayer
           attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
           url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
         />
-        {
-          VmList.map(
+          {props.vms.map(
             vm =>
               <Marker position={vm.position} icon={icons[vm.color]}>
                 <Popup>
@@ -60,7 +59,7 @@ export function MapView() {
                 </Popup>
               </Marker>
           )
-        }
+      }
       </MapContainer>
   );
 }
