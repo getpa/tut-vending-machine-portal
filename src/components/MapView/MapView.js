@@ -1,6 +1,7 @@
 import './MapView.css';
 
 import VmList from '../../data/vmlist.json';
+import PayName from '../../data/payname.json';
 
 import { MapContainer, TileLayer, Marker, Popup } from 'react-leaflet'; 
 import 'leaflet/dist/leaflet.css';
@@ -47,7 +48,9 @@ export function MapView() {
             vm =>
               <Marker position={vm.position} icon={icons[vm.color]}>
                 <Popup>
-                  <h2>{vm.name}</h2>
+                <h2>{vm.name}</h2>
+                <span>Accepts:</span>
+                <ul>{vm.accepts.map(pay => <li>{ PayName[pay] }</li>)}</ul>
                 <Utterances 
                     repo="getpa/tut-vending-machine-portal"
                     issueTerm={vm.name}

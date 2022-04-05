@@ -1,0 +1,20 @@
+{
+  "cash": "現金",
+  "id": "ID",
+  "edy": "楽天Edy",
+  "nanaco": "nanaco",
+  "waon": "WAON",
+  "trans": "交通系IC",
+  "cokeon": "CokeOn",
+  "credit": "クレジットカードタッチ決済",
+  "quic": "QuicPay",
+  "mercari": "メルペイ",
+  "rakuten": "楽天ペイ",
+  "jcoin": "J-Coin Pay",
+  "line": "LINE Pay",
+  "paypay": "PayPay",
+  "au": "au Pay",
+  "docomo": "d払い",
+  "wechat": "weChat Pay",
+  "union": "Union Pay"
+}
