@@ -1,10 +1,10 @@
 import './ListView.css';
 
-import VmList from './data/vmlist.json';
+import VmList from '../../data/vmlist.json';
 
 import { Utterances } from 'utterances-react-component'
 
-function ListView() {
+export function ListView() {
   return (
     <div class="list-outer">{
       VmList.map(
@@ -22,5 +22,3 @@ function ListView() {
     }</div>
   );
 }
-
-export default ListView;

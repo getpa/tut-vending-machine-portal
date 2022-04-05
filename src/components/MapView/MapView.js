@@ -1,6 +1,6 @@
-import './Map.css';
+import './MapView.css';
 
-import VmList from './data/vmlist.json';
+import VmList from '../../data/vmlist.json';
 
 import { MapContainer, TileLayer, Marker, Popup } from 'react-leaflet'; 
 import 'leaflet/dist/leaflet.css';
@@ -35,9 +35,9 @@ const icons = [
   return result;
 }, {});
 
-function Map() {
+export function MapView() {
   return (
-      <MapContainer center={[34.70146,137.40821]} zoom={17}>
+      <MapContainer center={[34.70146,137.40821]} zoom={17} tap={false}>
         <TileLayer
           attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
           url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
@@ -61,5 +61,3 @@ function Map() {
       </MapContainer>
   );
 }
-
-export default Map;

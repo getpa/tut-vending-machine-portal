@@ -1,7 +1,7 @@
 import React from 'react';
 import { BrowserRouter, Link, Route, Routes } from 'react-router-dom';
-import Map from './Map';
-import ListView from './ListView';
+import MapView from './components/MapView';
+import ListView from './components/ListView';
 import './App.css';
  
 function App(){
@@ -17,7 +17,7 @@ function App(){
       </header>
 
         <Routes>
-          <Route path="/" element={<Map />} />
+          <Route path="/" element={<MapView />} />
           <Route path="/list" element={<ListView />} />
         </Routes>
       </div>

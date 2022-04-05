@@ -14,7 +14,7 @@ https://getpa.github.io/tut-vending-machine-portal/
 # 技術的な解説（概略）
 今後の機能拡充（するかどうかわからないけど）のためにReactを採用．
 [jsonファイル](src/data/vmlist.json)に自販機の情報を書いてある．
-コーディングしたのは[App.js](src/App.js)だけ．
+マップ表示は[MapView.js](src/MapView.js)，リスト表示は[ListView.js](src/ListView.js)．
 
 [OSM](https://www.openstreetmap.org/)を使ってGISみたいなことをするためにLeafletを利用．
 ReactでLeafletを使うために[React Leaflet](https://react-leaflet.js.org)を採用．
