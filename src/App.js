@@ -20,8 +20,7 @@ function App(){
           </Routes>
         </main>
         <footer>
-          <p>Safari未対応です…</p>
-          <p><a href="https://github.com/getpa/tut-vending-machine-portal">getpa/tut-vending-machine-portal</a></p>
+          <p>Why don't you join the development?! (<a href="https://github.com/getpa/tut-vending-machine-portal">getpa/tut-vending-machine-portal</a>)</p>
         </footer>
       </div>
     </BrowserRouter>
