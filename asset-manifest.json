@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/tut-vending-machine-portal/static/css/main.40c540c7.css",
-    "main.js": "/tut-vending-machine-portal/static/js/main.0056ef1e.js",
+    "main.js": "/tut-vending-machine-portal/static/js/main.146cd094.js",
     "static/js/787.60e33275.chunk.js": "/tut-vending-machine-portal/static/js/787.60e33275.chunk.js",
     "index.html": "/tut-vending-machine-portal/index.html",
     "main.40c540c7.css.map": "/tut-vending-machine-portal/static/css/main.40c540c7.css.map",
-    "main.0056ef1e.js.map": "/tut-vending-machine-portal/static/js/main.0056ef1e.js.map",
+    "main.146cd094.js.map": "/tut-vending-machine-portal/static/js/main.146cd094.js.map",
     "787.60e33275.chunk.js.map": "/tut-vending-machine-portal/static/js/787.60e33275.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.40c540c7.css",
-    "static/js/main.0056ef1e.js"
+    "static/js/main.146cd094.js"
   ]
 }
