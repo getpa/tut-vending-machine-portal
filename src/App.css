@@ -16,3 +16,23 @@ header *{
 header a{
   color:white;
 }
+
+main{
+  height: calc(100vh - 110px);
+}
+
+footer {
+  background-color: #282c34;
+  height: 30px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  color: white;
+}
+footer *{
+  display: flex;
+}
+footer a{
+  color:white;
+}
